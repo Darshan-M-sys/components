@@ -1,8 +1,20 @@
 {
-  "name": "darshan-ui",
-  "private": true,
-  "version": "0.0.0",
+  "name": "darshan-ui-lib",
+  "version": "1.0.1",
+  "description": "Reusable React UI components built with Tailwind CSS",
+  "keywords": [
+    "react",
+    "ui",
+    "tailwind",
+    "components"
+  ],
+  "license": "MIT",
+  "author": "Darshan M",
   "type": "module",
+  "main": "./src/index.js",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,9 +23,14 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "darshan-ui-lib": "^1.0.1",
+    "react": ">=18",
+    "react-dom": ">=18",
     "tailwindcss": "^4.3.0"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

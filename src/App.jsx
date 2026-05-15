@@ -1,15 +1,25 @@
-import Button from "./components/Button/Button"
+import { Button } from "darshan-ui-lib"
 
 function App() {
   return (
-    <div className="p-10">
-      <h1 className="text-4xl font-bold mb-5">
-        Darshan UI 🚀
-      </h1>
+    <div className="p-10 flex gap-5">
 
       <Button>
-        Click Me
+        Primary
       </Button>
+
+      <Button variant="secondary">
+        Secondary
+      </Button>
+
+      <Button variant="danger">
+        Danger
+      </Button>
+
+      <Button size="lg">
+        Large Button
+      </Button>
+
     </div>
   )
 }
